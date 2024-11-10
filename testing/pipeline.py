@@ -1,9 +1,9 @@
 import torch
 import pandas as pd
-from load_model import load_model_and_tokenizer
-from load_dataset import prepare_dataset
-from predict import predict
-from evaluate_model import calculate_metrics
+from testing.load_model import load_model_and_tokenizer
+from testing.load_dataset import prepare_dataset
+from testing.predict import predict
+from testing.evaluate_model import calculate_metrics
 import tqdm
 
 class ContractNLITestPipeline:
